@@ -8,12 +8,6 @@ If you like Data Science applied to Web3 or Web2, consider visiting [my Medium](
 
 ![Ethereum Tracker](https://moralis.io/wp-content/uploads/2023/11/Etherscan-website-UI-Showing-block-data-info-1024x529.png)
 
-## Live project
-
-Have you ever wanted to track your Ethereum transactions? Well you've come to the right repo! In this project, I am going to show you how to get the balance of any Ethereum account, as well as how to track that balance over time and then make a graph of that using the Etherscan API using Python.
-
-This project uses the Etherscan API to track transactions and balances for a specific Ethereum account. With it, you can obtain the current account balance, list all transactions (including internal transactions), and view the evolution of the balance over time using a graph.
-
 ---
 
 ## Technology Used
@@ -44,7 +38,7 @@ Replace <libraries> with the names of the libraries. This setup is now ready to 
 https://api.etherscan.io/api
    ?module=account
    &action=balance
-   &address=0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae
+   &address="YourAddress"
    &tag=latest
    &apikey=YourApiKeyToken
 ```
@@ -54,7 +48,7 @@ https://api.etherscan.io/api
 
 • ```&action=balance```: This parameter specifies the action you want to perform in the specified module. In this case, you are requesting the balance of the account.
 
-• ```&address=0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae```: This is the Ethereum account address for which you want to query the balance. Replace this value with the address of the account of interest.
+• ```&address="YourAddress"```: This is the Ethereum account address for which you want to query the balance. Replace this value with the address of the account of interest.
 
 • ```&tag=latest```: This parameter specifies the block you want to use for the query. “latest” refers to the most recent block.
 
@@ -63,6 +57,14 @@ https://api.etherscan.io/api
 So, this API returns the balance of the specified Ethereum account, according to the most recent block. Remember to replace “YourApiKeyToken” with your actual API key.
 
 For [more info](https://docs.etherscan.io/api-endpoints/accounts).
+
+## Live project
+
+Have you ever wanted to track your Ethereum transactions? Well you've come to the right repo! In this project, I am going to show you how to get the balance of any Ethereum account, as well as how to track that balance over time and then make a graph of that using the Etherscan API using Python.
+
+This project uses the Etherscan API to track transactions and balances for a specific Ethereum account. With it, you can obtain the current account balance, list all transactions (including internal transactions), and view the evolution of the balance over time using a graph.
+
+[Ethereum Wallet Tracker](https://colab.research.google.com/drive/1Ax85LA1fRzIb9HHyj1vlBc1mIL_Jevat?usp=sharing)
 
 # Future features
 
