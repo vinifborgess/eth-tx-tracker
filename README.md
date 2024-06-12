@@ -1,4 +1,4 @@
-# Track Ethereum Transactions and Balance Using Python [![Sparkline](https://stars.medv.io/Naereen/badges.svg)](https://stars.medv.io/Naereen/badges)
+# Ethereum Wallet Tracker [![Sparkline](https://stars.medv.io/Naereen/badges.svg)](https://stars.medv.io/Naereen/badges)
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naereen/badges) 
 
@@ -8,7 +8,7 @@ If you like Data Science applied to Web3 or Web2, consider visiting [my Medium](
 
 ![Ethereum Tracker](https://moralis.io/wp-content/uploads/2023/11/Etherscan-website-UI-Showing-block-data-info-1024x529.png)
 
-## Project
+## Live project
 
 Have you ever wanted to track your Ethereum transactions? Well you've come to the right repo! In this project, I am going to show you how to get the balance of any Ethereum account, as well as how to track that balance over time and then make a graph of that using the Etherscan API using Python.
 
@@ -18,6 +18,7 @@ This project uses the Etherscan API to track transactions and balances for a spe
 
 ## Technology Used
 - Programming Language: Python
+- Libraries: Requests, Datetime and Matplotlib.
 - [Etherscan Doc.](https://docs.etherscan.io/api-endpoints/accounts)
 
 ## Setup
@@ -37,7 +38,6 @@ If the installation is not successful, try the following alternative commands:
 After these steps, the environment will be ready to run the code.
 
 Replace <libraries> with the names of the libraries. This setup is now ready to host the project code. Remember to keep your API key confidential and secure. 
-
 
 ## Etherscan API
 ```
