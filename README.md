@@ -63,3 +63,22 @@ https://api.etherscan.io/api
 So, this API returns the balance of the specified Ethereum account, according to the most recent block. Remember to replace “YourApiKeyToken” with your actual API key.
 
 For [more info](https://docs.etherscan.io/api-endpoints/accounts).
+
+# Future features
+
+How scalable now, therefore, is our code?
+
+|   |   |   |
+| --- | --- | --- |
+| ⏳ | <b>Business Intelligence for Web3</b> | Market strategies applied to crypto by crossing data. |
+| ⏳ | <b>High quality graphing</b> | Modern dashboard for managing ETH wallets. |
+| ⏳ | <b>dApp</b> | Decentralized monitoring platform. |
+| ⏳ | <b>Data Provision</b> | Data self-service. |
+
+## Authors
+
+[Vinícius Borges](https://github.com/vinifborgess)
+
+## Thanks!
+
+![Ethereum Tracker](https://cdn3d.iconscout.com/3d/premium/thumb/ethereum-4000944-3307215.png?f=webp)
